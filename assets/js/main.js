@@ -84,6 +84,7 @@
       if ((headerOffset - window.scrollY) <= 0) {
         selectHeader.classList.add('fixed-top')
         nextElement.classList.add('scrolled-offset')
+        selectHeader.style.backgroundColor = "rgba(1, 1, 29, 0.705)"
       } else {
         selectHeader.classList.remove('fixed-top')
         nextElement.classList.remove('scrolled-offset')
