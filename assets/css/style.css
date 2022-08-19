@@ -95,6 +95,27 @@ h6 {
 .scrolled-offset {
   margin-top: 60px;
 }
+/*--------------------------------------------------------------
+# Container RTT
+--------------------------------------------------------------*/
+.container-rtt{
+  width: 90%;
+  background-color: #111;
+  padding: 50px 30px;
+  margin: 0 auto ;
+  height: 400px;
+}
+.container-rtt > h1{
+  font-weight: bolder;
+  margin: 5px 0;
+  font-size: 2.3rem;
+  text-align: center;
+}
+.container-rtt > p{
+  /* font-weight: bold; */
+  font-size: 1rem;
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -551,6 +572,9 @@ section {
 @media (max-width: 667px) {
   .about .image img {
     max-width: 100%;
+  }
+  .container-rtt{
+    width: 100%;
   }
 }
 
