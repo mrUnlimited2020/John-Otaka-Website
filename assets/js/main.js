@@ -76,7 +76,7 @@
   /**
    * Header fixed top on scroll
    */
-  let selectHeader = select('#header')
+/*   let selectHeader = select('#header')
   if (selectHeader) {
     let headerOffset = selectHeader.offsetTop
     let nextElement = selectHeader.nextElementSibling
@@ -84,7 +84,7 @@
       if ((headerOffset - window.scrollY) <= 0) {
         selectHeader.classList.add('fixed-top')
         nextElement.classList.add('scrolled-offset')
-        selectHeader.style.backgroundColor = "rgba(1, 1, 29, 0.705)"
+        // selectHeader.style.backgroundColor = "rgba(1, 1, 29, 0.705)"
       } else {
         selectHeader.classList.remove('fixed-top')
         nextElement.classList.remove('scrolled-offset')
@@ -93,7 +93,7 @@
     window.addEventListener('load', headerFixed)
     onscroll(document, headerFixed)
   }
-
+ */
   /**
    * Back to top button
    */
@@ -113,11 +113,11 @@
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
-  })
+  // on('click', '.mobile-nav-toggle', function(e) {
+  //   select('#navbar').classList.toggle('navbar-mobile')
+  //   this.classList.toggle('bi-list')
+  //   this.classList.toggle('bi-x')
+  // })
 
   /**
    * Mobile nav dropdowns activate
